@@ -75,7 +75,7 @@ public class Main {
     }
 
     public int size() {
-      return data.size()-1;
+      return data.size();
     }
   }
 

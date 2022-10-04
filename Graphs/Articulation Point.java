@@ -35,7 +35,7 @@ class Main {
     ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
 
     for (int i = 0 ; i < v ; i++ ) {
-      graph.add(new ArrayList<Integer>());
+      graph.add(new ArrayList<Integer>());   
     }
 
 
@@ -76,9 +76,7 @@ class Main {
     low[src] = tin[src] = time++;
     int child = 0;
     for(int nbr : graph.get(src)){
-        if(nbr == src){
-            continue;
-        }else if(vis[nbr]==false){
+        if(vis[nbr]==false){
             dfs(graph , nbr ,src);
             if(low[nbr] >= tin[src] && parent!=-1){
                 isap[src] = true;
@@ -90,7 +88,7 @@ class Main {
         }
         
     }
-    if(child>1 && parent==-1){
+    if(child>1 && parent==-1){  //if parent is -1 and child is less than 0  than it is not an articulation point 
         isap[src] = true;
     }
       

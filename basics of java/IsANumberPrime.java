@@ -1,6 +1,6 @@
 import java.util.*;
   
-  public class Main{
+  public class IsANumberPrime{
   
   public static void checkprime(int num){
     int start = 2;

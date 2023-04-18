@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
  
  
-public class Main{
+public class ClosestToTheLeft{
  
     public static void main(String args[]){
         

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main{
+public class PrintAllPrimesTillN{
     public static void main(String[] args) {
         // write your code here
         Scanner scan = new Scanner(System.in);

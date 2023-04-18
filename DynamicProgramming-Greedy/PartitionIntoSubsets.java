@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class PartitionIntoSubsets {
         
     public static long partitionKSubset(int n, int k) {
         
